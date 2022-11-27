@@ -1,0 +1,15 @@
+.main-container {
+    background-color: hsl(30, 38%, 92%);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.cta-container {
+    display: flex;
+}
+.cart-btn {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
