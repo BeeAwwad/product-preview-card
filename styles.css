@@ -2,9 +2,14 @@
     background-color: hsl(30, 38%, 92%);
     max-width: 1440px;
     margin: 0 auto;
+    padding: 15% 25%;
 }
 .cta-container {
     display: flex;
+    background-color: #fff;
+}
+.cta-container {
+    
 }
 .cart-btn {
     display: inline-flex;
@@ -12,4 +17,28 @@
     padding: 0;
     border: none;
     outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Quickssand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #009e60;
+    padding: 0 13px;
+}
+.cart-btn:hover {
+    background-color: #006241;
+}
+.cart-btn:active {
+    background-color: #004526;
+}
+.button__text, .button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
+    color: #fff;
+    height: 100%;
+}
+.button__icon {
+    font-size: 1.5em;
 }
