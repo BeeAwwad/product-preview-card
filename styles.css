@@ -1,10 +1,23 @@
 body {
     overflow: hidden;
     background-color: hsl(30, 38%, 92%);
+    font-family: "Montserrat", serif;
 }
 p {
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+}
+.perfume {
+    font-size: 14px;
+    letter-spacing: 1.7px;
+}
+h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    background-color: aqua;
 }
 .main-container {
     background-color: hsl(30, 38%, 92%);
@@ -19,15 +32,20 @@ p {
     background-color: #fff;
     width: 800px;
     height: 500px;
+    border-radius: 15px;
 }
 .img-1 {
    width: 50%;
    height: 100%;
    background-color: red;
+   border-radius: 15px 0 0 15px;
 }
 .cta-text {
     width: 50%;
-    padding: 50px;
+    padding: 40px;
+    max-width: 400px;
+    box-sizing: border-box;
+    
 }
 .cart-btn {
     display: inline-flex;
@@ -42,7 +60,9 @@ p {
     font-weight: 500;
     cursor: pointer;
     background-color: #009e60;
-    padding: 0 13px;
+    padding: 0 90px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 .cart-btn:hover {
     background-color: #006241;
@@ -63,12 +83,20 @@ p {
 .prices {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    font-family: 'Fraunces', serif;
 }
 .main-price {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 800;
+    color: #009e60;
 }
 .past-price {
     font-size: smaller;
-    /* font-weight: ; */
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    text-decoration: line-through;
 }
