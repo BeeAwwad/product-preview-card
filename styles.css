@@ -11,6 +11,7 @@ p {
     padding: 0;
 }
 .perfume {
+    margin-top: 1.2em;
     font-size: 14px;
     letter-spacing: 1.7px;
 }
@@ -29,13 +30,13 @@ h2 {
 .cta-container {
     display: flex;
     background-color: #fff;
-    width: 750px;
-    height: 500px;
+    max-width: 700px;
+    min-height: 500px;
     border-radius: 15px;
 }
 .img-1 {
    width: 50%;
-   height: 100%;
+   min-height: 400px;
    border-radius: 15px 0 0 15px;
 }
 .img-1 img {
@@ -45,7 +46,7 @@ h2 {
 }
 .cta-text {
     width: 50%;
-    padding: 40px;
+    padding: 1.9em;
     max-width: 400px;
     box-sizing: border-box;
     
@@ -63,8 +64,7 @@ h2 {
     font-weight: 500;
     cursor: pointer;
     background-color: #009e60;
-    padding: 0 85px;
-    margin-bottom: 10px;
+    padding: 0 80px;
     width: 100%;
 }
 .cart-btn:hover {
@@ -86,8 +86,8 @@ h2 {
 .prices {
     display: flex;
     justify-content: space-between;
-    margin-top: 28px;
-    margin-bottom: 28px;
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
     font-family: 'Fraunces', serif;
 }
 .main-price {
@@ -99,6 +99,6 @@ h2 {
     font-size: smaller;
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 75px;
     text-decoration: line-through;
 }
